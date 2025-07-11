@@ -1,0 +1,15 @@
+flask==2.3.3
+numpy
+pandas
+nltk==3.8.1
+scikit-learn
+matplotlib
+seaborn
+wordcloud
+python-docx==0.8.11
+PyPDF2==3.0.1
+pdfplumber==0.9.0
+beautifulsoup4==4.12.2
+requests==2.31.0
+tqdm==4.66.1
+Werkzeug==2.3.7

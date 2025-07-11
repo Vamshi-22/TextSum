@@ -1,0 +1,23 @@
+{
+    "model_config": {
+        "vocab_size": 10000,
+        "embedding_dim": 128,
+        "hidden_units": 256,
+        "max_text_length": 500,
+        "max_summary_length": 50,
+        "batch_size": 32,
+        "epochs": 10,
+        "learning_rate": 0.001
+    },
+    "app_config": {
+        "upload_folder": "uploads",
+        "allowed_extensions": ["txt", "pdf", "doc", "docx"],
+        "max_file_size": 16777216,
+        "debug": true
+    },
+    "summary_lengths": {
+        "short": 0.1,
+        "medium": 0.2,
+        "long": 0.3
+    }
+}
